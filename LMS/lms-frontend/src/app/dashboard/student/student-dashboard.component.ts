@@ -31,9 +31,9 @@ export class StudentDashboardComponent implements OnInit {
       });
   }
 
-  goToLiveCoding() {
-    this.router.navigate(['/live-coding']);
-  }
+  // goToLiveCoding() {
+  //   this.router.navigate(['/live-coding']);
+  // }
   
 
   goBackToManage() {

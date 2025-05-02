@@ -64,4 +64,8 @@ export class LayoutComponent implements OnInit {
       this.closeDropdown();
     }
   }
+  goToLiveCoding() {
+    this.router.navigate(['/live-coding']);
+  }
+  
 }
